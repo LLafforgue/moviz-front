@@ -39,7 +39,7 @@ function Home() {
 
 
   useEffect(()=>{
-    fetch('https://moviz-back-beige.vercel.app/movies')
+    fetch('https://moviz-back-weld.vercel.app/movies')
       .then(response=>response.json())
       .then(data=>{ 
         console.log(data.movies[0])
